@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_abecedario.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_alumnos_actvity.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_colocar_imagen.xml" value="0.75" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_colocar_palabra.xml" value="0.33152173913043476" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_configuracion.xml" value="0.14" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_cuento.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_escritura_de_oraciones.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_escritura_de_palabras.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_letra_faltante.xml" value="0.18" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_numero_faltante.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_numero_faltante_lado.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_pdfactivity.xml" value="0.5" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/activity_suma_de_numeros.xml" value="0.25" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/cartel.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/escritura_de_oracion.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/escritura_de_palabras.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/item_actividad.xml" value="0.75" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/item_actividad_conf.xml" value="0.5" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/item_item.xml" value="0.25" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/item_pdf.xml" value="0.25" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/item_spinner.xml" value="0.5063649222065064" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/lo_lograste.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/numero_faltante.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/palabra.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/suma_de_numeros.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_abecedario.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_colocar_imagen.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_escritura_de_oracion.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_escritura_de_palabras.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_letra_faltante.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_nuevo_alumno.xml" value="0.33" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_numero_faltante.xml" value="0.3625" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_seleccionar_item.xml" value="0.25" />
+        <entry key="..\:/Users/Gonzalo/AndroidStudioProjects/MisTalentosApp/app/src/main/res/layout/z_suma_de_numeros.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

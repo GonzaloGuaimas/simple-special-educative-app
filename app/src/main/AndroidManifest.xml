@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mistalentosapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries> <!-- Camera -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent> <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" /> <data android:mimeType="image/*" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity
+            android:name=".Lengua.CuentoAct"
+            android:exported="true" />
+        <activity
+            android:name=".Lengua.LetraFaltanteAct"
+            android:exported="true" />
+        <activity
+            android:name=".Lengua.AbecedarioAct"
+            android:exported="true" />
+        <activity
+            android:name=".Extras.ColocarPalabra"
+            android:exported="true" />
+        <activity
+            android:name=".Matematicas.NumeroFaltanteLado"
+            android:exported="true" />
+        <activity
+            android:name=".PDFActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlumnosActvity"
+            android:exported="true" />
+        <activity
+            android:name=".ConfiguracionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Extras.ColocarImagen"
+            android:exported="true" />
+        <activity
+            android:name=".Matematicas.NumeroFaltante"
+            android:exported="true" />
+        <activity
+            android:name=".Lengua.EscrituraDeOraciones"
+            android:exported="true" />
+        <activity
+            android:name=".Matematicas.SumaDeNumeros"
+            android:exported="true" />
+        <activity
+            android:name=".Lengua.EscrituraDePalabras"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

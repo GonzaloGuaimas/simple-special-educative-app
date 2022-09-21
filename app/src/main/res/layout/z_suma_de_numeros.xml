@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/bg1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:text="Escribí los operandos y el resultado"
+                android:textColor="#ffff"
+                android:textSize="25dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/textProblema"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:gravity="center"
+                        android:hint="situación problematica (opcional)"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#807E7E"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/textSumando1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:gravity="center"
+                        android:hint="operando 1"
+                        android:imeOptions="actionNext"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#807E7E"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/textSumando2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:gravity="center"
+                        android:hint="operando 2"
+                        android:inputType="phone"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#807E7E"
+                        android:textSize="20dp" />
+                    <EditText
+                        android:id="@+id/textResultado"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:hint="resultado"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#807E7E"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardComenzar"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:foregroundGravity="center"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    android:id="@+id/textComenzarAgregar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:text="Comenzar"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

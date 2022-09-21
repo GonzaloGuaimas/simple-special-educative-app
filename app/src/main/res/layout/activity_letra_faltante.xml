@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lengua.LetraFaltanteAct">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:text="Letra Faltante"
+            android:textColor="#ffff"
+            android:textSize="35dp"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLeer"
+            android:layout_weight="3.9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:elevation="10dp"
+            app:cardMaxElevation="30dp"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="@font/bubblegum_sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Revisar"
+                android:textColor="#000000"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardTerminarActividad"
+            android:layout_weight="3.9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#CD3636"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:elevation="10dp"
+            app:cardMaxElevation="30dp"
+            app:cardCornerRadius="5dp">
+
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="@font/bubblegum_sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terminar"
+                android:textColor="#FFFFFF"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/bg2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/bubblegum_sans"
+                android:gravity="center"
+                android:text="por: Lic. Gisela"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:id="@+id/imagen"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:layout_width="600dp"
+                            android:layout_height="match_parent"/>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="#23D5D5"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra7"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra8"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra9"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="5dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cardCornerRadius="30dp"
+                        android:elevation="3dp"
+                        app:cardMaxElevation="10dp"
+                        app:cardBackgroundColor="#E91E63"
+                        android:layout_gravity="center">
+                        <androidx.recyclerview.widget.RecyclerView
+
+                            android:id="@+id/recyclerLetra10"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerAbecedario"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

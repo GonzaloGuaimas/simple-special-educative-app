@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379268868696",
+    "project_id": "mis-talentos-74586",
+    "storage_bucket": "mis-talentos-74586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379268868696:android:68a9d35d2d855b6f69b82d",
+        "android_client_info": {
+          "package_name": "com.example.mistalentosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379268868696-s3goufgabmuh0va5im01blkbn0ncq7hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyvUnkWn470RsKPRLO_DF9e4J2x3XcSVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379268868696-s3goufgabmuh0va5im01blkbn0ncq7hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
